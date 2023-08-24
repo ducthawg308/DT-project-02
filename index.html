@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>  
-    <main>
+    
         <header class="header fixed">
             <div class="content">
                 <div class="header-wrap">
@@ -40,62 +40,443 @@
                 </div>
             </div>
         </header>
-
-        <div class="hero">
-            <div class="content">
-                <div class="hero-wrap">
-                    <div class="hero__media">
-                        <img src="./assets/img/hero-img.jpg" alt="" class="hero__media-img">
-                        <div class="hero__media-summary">
-                            <div class="hero__media-item">
-                                <div class="hero__media-icon">
-                                    <img src="./assets/img/media-icon1.svg" alt="">
+        <main>
+            <div class="hero">
+                <div class="content">
+                    <div class="hero-wrap">
+                        <div class="hero__media">
+                            <img src="./assets/img/hero-img.jpg" alt="" class="hero__media-img">
+                            <div class="hero__media-summary">
+                                <div class="hero__media-item">
+                                    <div class="hero__media-icon">
+                                        <img src="./assets/img/media-icon1.svg" alt="">
+                                    </div>
+                                    <div class="hero__media-info">
+                                        <p class="media-label">20 Courses</p>
+                                        <p class="media-title">UI/UX Design</p>
+                                    </div>
                                 </div>
-                                <div class="hero__media-info">
-                                    <p class="media-label">20 Courses</p>
-                                    <p class="media-title">UI/UX Design</p>
+                                <div class="hero__media-item">
+                                    <div class="hero__media-icon">
+                                        <img src="./assets/img/media-icon2.svg" alt="">
+                                    </div>
+                                    <div class="hero__media-info">
+                                        <p class="media-label">20 Courses</p>
+                                        <p class="media-title">Development</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="hero__media-item">
-                                <div class="hero__media-icon">
-                                    <img src="./assets/img/media-icon2.svg" alt="">
-                                </div>
-                                <div class="hero__media-info">
-                                    <p class="media-label">20 Courses</p>
-                                    <p class="media-title">Development</p>
-                                </div>
-                            </div>
-                            <div class="hero__media-item">
-                                <div class="hero__media-icon">
-                                    <img src="./assets/img/media-icon3.svg" alt="">
-                                </div>
-                                <div class="hero__media-info">
-                                    <p class="media-label">30 Courses</p>
-                                    <p class="media-title">Marketing</p>
+                                <div class="hero__media-item">
+                                    <div class="hero__media-icon">
+                                        <img src="./assets/img/media-icon3.svg" alt="">
+                                    </div>
+                                    <div class="hero__media-info">
+                                        <p class="media-label">30 Courses</p>
+                                        <p class="media-title">Marketing</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="hero__content">
-                        <h1 class="hero__content-heading">Learn without limits and spread knowledge.</h1>
-                        <p class="hero__content-desc">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
-                        <div class="hero__content-cta">
-                            <a href="" class="btn hero-btn">See Courses</a>
-                            <div class="hero__content-icon">
-                                <img src="./assets/img/hero-content-icon.svg" alt="">
+                        <div class="hero__content">
+                            <h1 class="hero__content-heading">Learn without limits and spread knowledge.</h1>
+                            <p class="hero__content-desc">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
+                            <div class="hero__content-cta">
+                                <a href="" class="btn hero-btn">See Courses</a>
+                                <button class="hero__watch-video">
+                                    <div class="hero__content-icon">
+                                        <img src="./assets/img/hero-content-icon.svg" alt="">
+                                    </div>
+                                    <span>Watch Video</span>
+                                </button>
                             </div>
-                            <span>Watch Video</span>
+                            <p class="hero__content-desc">Recent engagement</p>
+                            <p class="hero__content-desc-num">
+                                <strong>50K</strong> Students
+                                <strong>70+</strong> Courses
+                            </p>
                         </div>
-                        <p class="hero__content-desc">Recent engagement</p>
-                        <p class="hero__content-desc">
-                            <strong>50K</strong> Students
-                            <strong>70+</strong> Courses
-                        </p>
                     </div>
                 </div>
             </div>
+
+            <div class="popular">
+                <div class="content">
+                    <div class="popular-wrap">
+                        <div class="popular__top">
+                            <div class="popular__info">
+                                <h2 class="popular__info-heading">Our popular courses</h2>
+                                <p class="popular__info-desc">Build new skills with new trendy courses and shine for the next future career.</p>
+                            </div>
+                            <div class="popular__controls">
+                                <button class="popular__controls-btn">
+                                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                <button class="popular__controls-btn">
+                                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                        
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="course__list">
+                            <div class="course__item">
+                                <a href="">
+                                    <img src="./assets/img/Course1.jpg" alt="" class="course__item-thumb">
+                                </a>
+                                <div class="course__info">
+                                    <div class="course__info-heading">
+                                        <h3 class="course__info-title"><a href="">Basic web design</a></h3>
+                                        <div class="course__info-rating">
+                                            <img src="./assets/img/Star 6.svg" alt="" class="rating-star">
+                                            <span class="rating-value">4.5</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__info-desc">Get the best course, gain knowledge and shine for your future career.</p>
+                                    <div class="course__info-footer">
+                                        <span class="footer-price">$120.75</span>
+                                        <button class="btn book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <a href="">
+                                    <img src="./assets/img/Course2.jpg" alt="" class="course__item-thumb">
+                                </a>
+                                <div class="course__info">
+                                    <div class="course__info-heading">
+                                        <h3 class="course__info-title"><a href="">UI/UX design</a></h3>
+                                        <div class="course__info-rating">
+                                            <img src="./assets/img/Star 6.svg" alt="" class="rating-star">
+                                            <span class="rating-value">4.5</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__info-desc">Get the best course, gain knowledge and shine for your future career.</p>
+                                    <div class="course__info-footer">
+                                        <span class="footer-price">$120.75</span>
+                                        <button class="btn book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <a href="">
+                                    <img src="./assets/img/Course3.jpg" alt="" class="course__item-thumb">
+                                </a>
+                                <div class="course__info">
+                                    <div class="course__info-heading">
+                                        <h3 class="course__info-title"><a href="">Web App design</a></h3>
+                                        <div class="course__info-rating">
+                                            <img src="./assets/img/Star 6.svg" alt="" class="rating-star">
+                                            <span class="rating-value">4.5</span>
+                                        </div>
+                                    </div>
+                                    <p class="course__info-desc">Get the best course, gain knowledge and shine for your future career.</p>
+                                    <div class="course__info-footer">
+                                        <span class="footer-price">$120.75</span>
+                                        <button class="btn book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="content">
+                    <div class="feedback__list-wrap">
+                        <div class="feedback__list">
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/feedback-avt1.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot dot-active"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/feedback-avt2.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot"></span>
+                                        <span class="dot dot-active"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/feedback-avt3.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot dot-active"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="content">
+                    <div class="features__body">
+                        <div class="features__body-img">
+                            <img src="./assets/img/features-1.jpg" alt="" class="features-img features-img-top">
+                            <img src="./assets/img/features-2.jpg" alt="" class="features-img">
+                        </div>
+                        <div class="features__content">
+                            <h2 class="features__heading">Learner outcomes through our awesome platform</h2>
+                            <p class="features__desc">87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career.</p>
+                            <p class="features__desc">Lesson Impact Report (2022)</p>
+                            <button class="btn features-btn">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features features-2">
+                <div class="content">
+                    <div class="features__body">
+                        <div class="features__body-img">
+                            <img src="./assets/img/hero-img.jpg" alt="" class="features-img">
+                        </div>
+                        <div class="features__content">
+                            <h2 class="features__heading">Take the next step toward your personal and professional goals with Lesson.</h2>
+                            <p class="features__desc">Take the next step toward. Join now to receive personalized  and more recommendations from the full Coursera catalog.</p>
+                            <button class="btn features-btn">Join Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="content">
+                    <div class="blog__top">
+                        <h2 class="blog__top-heading">Our blog</h2>
+                        <p class="blog__top-desc">Read our regular travel blog and know the latest update of tour and travel</p>
+                    </div>
+                    <div class="blog__list-wrap">
+                        <div class="blog__list">
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/blog-1.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/blog-2.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/blog-3.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/hero-img.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/feedback-avt3.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/feedback-avt1.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/Course1.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/Course2.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <a href="" class="blog__item-img">
+                                    <img src="./assets/img/Course1.jpg" alt="" class="blog__item-thumb">
+                                </a>
+                                <div class="blog__item-info">
+                                    <span class="blog__info-date">21 November 2021</span>
+                                    <h3 class="blog__info-title"><a href="">How to become a pro web designer in 2022 and get remot job?</a></h3>
+                                    <button class="btn book-btn">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__dots">
+                        <span class="dot dot-active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer">
+            <div class="content">
+                <div class="row">
+                    <div class="column">
+                        <img src="./assets/img/Logo-white.svg" alt="" class="footer__logo">
+                        <p class="footer__desc">Need to help for your dream Career? trust us. With Lesson, study becomes a lot easier with us.</p>
+                        <div class="footer__socials">
+                            <a href="" class="socials-link">
+                                <img src="./assets/img/Twitter.svg" alt="" class="socials-img">
+                            </a>
+                            <a href="" class="socials-link">
+                                <img src="./assets/img/Facebook.svg" alt="" class="socials-img">
+                            </a>
+                            <a href="" class="socials-link">
+                                <img src="./assets/img/Linkedin.svg" alt="" class="socials-img">
+                            </a>
+                            <a href="" class="socials-link">
+                                <img src="./assets/img/Instagram.svg" alt="" class="socials-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3 class="footer__heading">Company</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Our Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Latest News</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="footer__heading">Support</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">FAQ’s</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Terms & Conditions</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="footer__heading">Address</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link"><strong>Location:</strong> 27 Division St, New York, NY 10002, USA</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link"><strong>Email:</strong> email@gmail.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link"><strong>Phone:</strong> + 000 1234 567 890</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright ©2023 Nguyen Duc Thang</p>
+                </div>
+            </div>
         </div>
-    </main>
+    
+    <script>
+        const feedbackItems = document.querySelectorAll('.feedback__item');
+        const feedbackList = document.querySelector('.feedback__list');
+        let currentIndex = 0;
+
+        function slideToNextItem() {
+            currentIndex = (currentIndex + 1) % feedbackItems.length;
+            const translateValue = -currentIndex * 100;
+            feedbackList.style.transform = `translateX(${translateValue}%)`;
+        }
+
+        setInterval(slideToNextItem, 4000);
+
+    </script>
 </body>
 </html>
